@@ -1,22 +1,13 @@
 package main
 
 import (
-
-	//parse JSON
-
-	"fmt" //file work
+	"fmt" 
 	"io"
 	"os"
 	_ "path"
-
 	"github.com/fogleman/gg"
 	geojson "github.com/paulmach/go.geojson"
-
-	//http work
-	//convert string to int
-
 	_ "mime/multipart"
-
 	_ "github.com/go-sql-driver/mysql"
 )
 
